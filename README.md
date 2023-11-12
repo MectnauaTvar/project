@@ -44,7 +44,7 @@ def search_employee_by_name(full_name):
         print("Сотрудник не найден")
 
 # Пример использования функций
-add_employee("Иванов Иван Иванович", "1234567890", "ivanov@example.com", 1000.0)
-update_employee(1, "Иванов Иван Петрович", "0987654321", "ivanov@example.com", 1500.0)
+add_employee("Иванов Иван Иванович", "1234567890", "ivanov@gmail.com", 1000.0)
+update_employee(1, "Иванов Иван Петрович", "0987654321", "ivanov@mail.com", 1500.0)
 delete_employee(1)
 search_employee_by_name("Иван")
